@@ -21,7 +21,7 @@
     {% for movie in movies %}
     <div v-for="movie in movies" class="col">
         <div class="card">
-            <img src="{{ movie.image.url }}" class="card-img-top" alt="...">
+            <img src="{{ movie.image.url }}" class="card-img-top " alt="..." width = 100 heigth = 100>
         <div class="card-body">
             <h5 class="card-title">{{ movie.title }}</h5>
             <p class="card-text">{{ movie.description }}</p>
